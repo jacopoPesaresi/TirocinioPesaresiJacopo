@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuController">
+   <center>
+      <ImageView fx:id="imageView" fitHeight="274.0" fitWidth="445.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Slider fx:id="grower" max="1000.0" onContextMenuRequested="#changeSize" onDragDetected="#changeSize" onDragDone="#changeSize" onDragDropped="#changeSize" onDragEntered="#changeSize" onDragExited="#changeSize" onDragOver="#changeSize" onMouseClicked="#changeSize" onMouseDragEntered="#changeSize" onMouseDragExited="#changeSize" onMouseDragOver="#changeSize" onMouseDragReleased="#changeSize" onMouseDragged="#changeSize" onMouseEntered="#changeSize" onMouseExited="#changeSize" onMouseMoved="#changeSize" onMousePressed="#changeSize" onMouseReleased="#changeSize" onScroll="#changeSize" onScrollFinished="#changeSize" onScrollStarted="#changeSize" onSwipeDown="#changeSize" onSwipeLeft="#changeSize" onSwipeRight="#changeSize" onSwipeUp="#changeSize" onTouchMoved="#changeSize" onTouchPressed="#changeSize" onTouchReleased="#changeSize" onTouchStationary="#changeSize" value="100.0" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Label fx:id="value" text="___" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </bottom>
+</BorderPane>
